@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
 def algoritmo_burbuja(a: list) -> list:
+    """_summary_
 
+    Args:
+        a (list): _description_
+
+    Returns:
+        list: _description_
+    """
     iteraciones = len(a) - 1
 
     for i in range(iteraciones):
@@ -19,6 +26,8 @@ def algoritmo_burbuja(a: list) -> list:
             j += 1
 
     return a
+
+
 
 def main():
     a = [8, 3, 1, 19, 14]
